@@ -1,0 +1,10 @@
+{
+  "name": "铜钱",
+  "description": "用铜造成的钱",
+  "explosiveness": 20,
+  "radioactivity": 10,
+  "flammability": 50,
+  "color": "#ebd4b5",
+  "alwaysUnlocked": true,
+  "research": "铜钱铸造厂"
+}

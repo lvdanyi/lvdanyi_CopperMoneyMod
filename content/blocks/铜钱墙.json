@@ -1,0 +1,15 @@
+{
+  "name": "铜钱墙",
+  "description": "用铜钱造成的墙。\n[red]怎么说呢....",
+  "type": "Wall",
+  "size": 2,
+  "health": 10000,
+  "requirements": [
+    {
+      "item": "铜钱",
+      "amount": 200
+    }
+  ],
+  "category": "defense",
+  "research": "小型铜钱墙"
+}

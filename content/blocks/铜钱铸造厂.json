@@ -1,0 +1,43 @@
+{
+  "type": "GenericCrafter",
+  "breakable": true,
+  "name": "铜钱铸造厂",
+  "health": "555",
+  "description": "[white]铸造大量的铜钱。\n[red]凡事都要慢慢来",
+  "size": 4,
+  "itemCapacity": 400,
+  "outputItem": { "item": "铜钱", "amount": 10},
+  "liquidCapacity": 50,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 500,
+  "consumes": {
+    "power": 10,
+    "items": {
+      "items": [
+        {
+          "item": "copper",
+          "amount": 200
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 2.0
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 100
+    },
+    {
+      "item": "lead",
+      "amount": 100
+    }
+  ],
+  "category": "crafting",
+  "research": "copper-wall"
+}
+
